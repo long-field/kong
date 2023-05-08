@@ -21,12 +21,12 @@ describe('My Login application', () => {
         await hentaiPage.pokeHentai();
         await hentaiPage.pokeHentai();
         await hentaiPage.pokeHentai();
-       
+        browser.pause(2000);
         await hentaiPage.pokebtn();
     })
 
-    it('should kil coconuts', async () => {
-    
+    it('should kill coconuts', async () => {
+        await browser.pause(5000)
         await cocoPage.killCOCONUTS();
         await cocoPage.fuckOFF();
         await browser.pause(5000)
